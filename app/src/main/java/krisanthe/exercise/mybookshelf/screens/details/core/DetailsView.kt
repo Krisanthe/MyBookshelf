@@ -91,8 +91,8 @@ class DetailsView(private val detailsActivity: DetailsActivity, var book: Book) 
 
     private fun getCurrentBookValue() {
         book.title = if (TextUtils.isEmpty(titleET.text)) "" else titleET.text.toString()
-        book.author = if (TextUtils.isEmpty(titleET.text)) "" else authorET.text.toString()
-        book.pages = if (TextUtils.isEmpty(titleET.text)) 0 else pagesET.text.toString().toInt()
+        book.author = if (TextUtils.isEmpty(authorET.text)) "" else authorET.text.toString()
+        book.pages = if (TextUtils.isEmpty(pagesET.text)) 0 else pagesET.text.toString().toInt()
     }
 
     private fun setupWatcher() {
