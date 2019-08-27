@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyBookshelf</string>
+    <string name="name">Book title</string>
+    <string name="author">Author</string>
+    <string name="isbn">ISBN number</string>
+    <string name="pages">Number of pages</string>
+    <string name="rate">Rate</string>
+    <string name="save">Save book</string>
+    <string name="remove">Remove</string>
+    <string name="remove_success">successfully removed</string>
+    <string name="remove_error">Error removing book</string>
+    <string name="author_placeholder">By %1$s</string>
+    <string name="isbn_placeholder">ISBN: %1$s</string>
+    <string name="pages_placeholder">%1$s pages</string>
+</resources>
